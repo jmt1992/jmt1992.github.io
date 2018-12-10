@@ -10,18 +10,18 @@
         dataType: tableau.dataTypeEnum.float
     }, {
         id: "new_score",
-        dataType: tableau.dataTypeEnum.string
+        dataType: tableau.dataTypeEnum.float
     }, {
         id: "new_tier",
-        dataType: tableau.dataTypeEnum.geometry
+        dataType: tableau.dataTypeEnum.float
     },
 		{
         id: "old_score",
-        dataType: tableau.dataTypeEnum.string
+        dataType: tableau.dataTypeEnum.float
     },
 		{
         id: "old_tier",
-        dataType: tableau.dataTypeEnum.string
+        dataType: tableau.dataTypeEnum.float
     }
 	
 	];

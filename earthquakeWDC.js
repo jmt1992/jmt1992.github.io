@@ -44,7 +44,7 @@ myConnector.getData = function(table, doneCallback) {
 
             // Iterate over the JSON object hard coded to test
             //for (var i = 0, len = feat.length; i < len; i++) {
-            for (var i = 0, len = 10; i < len; i++) {
+            for (var i = 0, len = resp.length; i < len; i++) {
 
                 tableData.push({
                     "client_id": resp[i].attributes.client_id,
